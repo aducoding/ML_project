@@ -1,0 +1,46 @@
+.main-header {
+    background: linear-gradient(90deg, #6C63FF 0%, #4834D4 100%);
+    padding: 2.5rem 2rem;
+    border-radius: 16px;
+    color: white;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 8px 24px rgba(108, 99, 255, 0.25);
+}
+
+.main-header h1 { font-size: 2.6rem; margin-bottom: 0.3rem; }
+
+.result-card { padding: 2rem; border-radius: 16px; text-align: center; margin-top: 1rem; }
+.result-card h2, .result-card h3, .result-card p { color: #1A1A1A !important; }
+
+.purchase-yes { background-color: #E6F9EF; border: 2px solid #2ECC71; }
+.purchase-no { background-color: #FDECEA; border: 2px solid #E74C3C; }
+
+.metric-card {
+    background-color: rgba(108, 99, 255, 0.08);
+    border-left: 4px solid #6C63FF;
+    border-radius: 8px;
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.8rem;
+}
+.metric-label { font-size: 0.8rem; opacity: 0.7; text-transform: uppercase; letter-spacing: 0.05em; }
+.metric-value { font-size: 1.6rem; font-weight: 700; color: #6C63FF; }
+
+.factor-box {
+    background-color: rgba(255,255,255,0.05);
+    border-radius: 8px;
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.6rem;
+    border-left: 3px solid #6C63FF;
+}
+
+div.stButton > button {
+    background-color: #6C63FF;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    width: 100%;
+}
+div.stButton > button:hover { background-color: #4834D4; color: white; }
